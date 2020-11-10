@@ -1,0 +1,15 @@
+<!--pages/processpage/processpage.wxml-->
+<view class='processpage'>
+  <view class="processTitle">流程攻略</view>
+  <view class='processContent'>
+    <!-- <view class="monthLine"  wx:for="{{monthData}}" wx:key="content" data-index='{{index}}' bindtap='monthShow'>
+      <view class="monthText">{{item.content}}</view>
+    </view> -->
+    <block wx:for="{{data}}" data-item="item" wx:for-index="idx" >
+      <view>
+        第{{idx}}次输出,姓名：{{item.name}}
+      </view>
+</block>
+  </view>
+ 
+</view>

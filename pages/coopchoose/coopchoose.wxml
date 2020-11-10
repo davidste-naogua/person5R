@@ -1,0 +1,10 @@
+<!--pages/coopchoose/coopchoose.wxml-->
+<view class='coopchoosePage'>
+  <view class="coopTitle">COOP关系提升</view>
+  <view class='coopContent'>
+    <view class="coopSel"  wx:for="{{listData}}" wx:key="content" data-index='{{index}}' bindtap='coopShow'>
+     <view class="coopText">{{item.content}}</view>
+    </view>
+  </view>
+ 
+</view>

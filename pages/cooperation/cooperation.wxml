@@ -1,0 +1,9 @@
+<!--pages/cooperation/cooperation.wxml-->
+<text>pages/cooperation/cooperation.wxml</text>
+<view class='cooperationPage'>
+  <view class='coop_1'>
+    <view class='coop_titlePic'>{{copText}}</view>
+    <view class='coop'>{{text2}}</view>
+    <image class='background' src='{{backgroundImage}}'></image>
+  </view>
+</view>

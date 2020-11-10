@@ -1,0 +1,48 @@
+{
+  "pages": [
+    "pages/processpage/processpage",
+    "pages/coopchoose/coopchoose",
+    "pages/cooperation/cooperation",
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/test/test"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "WeChat",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "color": "#000000",
+    "selectedColor": "#d81e06",
+    "list": [
+      {
+        "pagePath":"pages/processpage/processpage",
+        "text": "流程",
+        "iconPath": "pages/assets/img/gonglveBlack.png",
+        "selectedIconPath": "pages/assets/img/gonglveRed.png"
+      },
+      {
+        "pagePath": "pages/coopchoose/coopchoose",
+        "text": "COOP",
+        "iconPath": "pages/assets/img/cooperationBlack.png",
+        "selectedIconPath": "pages/assets/img/cooperationRed.png"
+      },
+      {
+        "pagePath": "pages/coopchoose/coopchoose",
+        "text": "PERSONA",
+        "iconPath": "pages/assets/img/maskBlack.png",
+        "selectedIconPath": "pages/assets/img/maskRed.png"
+      },
+      {
+        "pagePath": "pages/cooperation/cooperation",
+        "text": "成就",
+        "iconPath": "pages/assets/img/cupBlack.png",
+        "selectedIconPath": "pages/assets/img/cupRed.png"
+      }
+    ]
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}
